@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TrianSchedule</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  
+</head>
+<body>
+<div class="container">
+	<div class="row" id="header">Anytime is Train Time</div>
+
+	<br>
+
+	<div class="row border" id="schedule">
+		<table class="table">
+			<tr>
+				<th id="tableHeader">Current Train Schedule</th>
+			<tr>
+			<tr>
+				<th>Train Name</th>
+				<th>Destination</th>
+				<th>Frequency (min)</th>
+		  		<th>Next Arrival</th>
+		  		<th>Minutes Away</th>
+	  		</tr>
+	  		<tr>
+		  		<td>Ocean Breeze</td>
+		  		<td>Santa Cruz</td>
+		  		<td>60</td>
+		  		<td>1:00</td>
+		  		<td>30</td>
+	  		</tr>
+	  		<tr>
+		  		<td>Mountain Mavin</td>
+		  		<td>Siskiyou County</td>
+		  		<td>90</td>
+		  		<td>2:00</td>
+		  		<td>60</td>
+	  		</tr>
+	  		<tr>
+		  		<td>Desert Caravan</td>
+		  		<td>Las Vegas</td>
+		  		<td>120</td>
+		  		<td>3:00</td>
+		  		<td>30</td>
+	  		</tr>
+
+		</table>
+	</div>
+
+	<br>
+
+	<div class="row border" id="addTrain">
+		<form id="form ">
+  			<div class="form-group">
+    			<label for="trainName">Tain Name</label>
+    			<input class="form-control" id="name">
+  			</div>
+  			<div class="form-group">
+    			<label for="destination">Destination</label>
+    			<input class="form-control" id="destination">
+  			</div>
+  			<div class="form-group">
+    			<label for="firstTime">First Train Time (HH:mm - military time)</label>
+    			<input class="form-control" id="firstTime">
+  			</div>
+  			<div class="form-group">
+    			<label for="frequency">Frequency (min)</label>
+    			<input class="form-control" id="frequency">
+  			</div>
+  			<button type="submit" class="btn btn-info">Submit</button>
+		</form>
+	</div>
+</div>
+
+
+</body>
+</html>

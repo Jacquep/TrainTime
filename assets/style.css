@@ -1,0 +1,13 @@
+#header {
+	background-image: url("landscape.jpg");
+	padding: 300px;
+	font-size: 55px;
+}
+
+.border {
+	border: solid 3px #5ac5ee;
+}
+
+#form {
+	margin: 15px;
+}
