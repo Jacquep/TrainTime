@@ -11,3 +11,10 @@
 #form {
 	margin: 15px;
 }
+
+.title {
+	background-color: #5ac5ee;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+}
